@@ -1,0 +1,47 @@
+ [
+  {
+    "id": 1,
+    "name": "CAMISETA MESCLA",
+    "value": 28
+  },
+  {
+    "id": 2,
+    "name": "SAIA EM COURO",
+    "value": 398
+  },
+  {
+    "id": 3,
+    "name": "CARDIGAN TIGRE",
+    "value": 398
+  },
+  {
+    "id": 4,
+    "name": "CARDIGAN OFF WHITE",
+    "value": 99.90
+  },
+  {
+    "id": 5,
+    "name": "BODY LEOPARDO",
+    "value": 129.90
+  },
+  {
+    "id": 6,
+    "name": "CASACO PELOS",
+    "value": 398
+  },
+  {
+    "id": 7,
+    "name": "CROPPED STRIPES",
+    "value": 120.00
+  },
+  {
+    "id": 8,
+    "name": "CAMISA TRANSPARENTE",
+    "value": 398
+  },
+  {
+    "id": 9,
+    "name": "CARDIGAN TIGRE",
+    "value": 398
+  }
+]
