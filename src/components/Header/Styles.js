@@ -11,10 +11,15 @@ export const Header = styled.header`
 `;
 
 export const Logo = styled.img`
-
+  @media screen and (max-width: 700px) {
+    margin-left : 1.5em;
+  }	
 `;
 
 export const Cart = styled.img`
   width : 2em;
   padding : .2em;
+  @media screen and (max-width: 700px) {
+    margin-right : 1.5em;
+  }	
 `;

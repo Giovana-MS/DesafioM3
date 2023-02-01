@@ -4,7 +4,7 @@ export const Order = () => {
   return (
     <Styles.Order>
       <Styles.Select>
-        <option value="" selected>Ordenar por:</option>
+        <option defaultValue="">Ordenar</option>
         <option value="Recente">Mais Recente</option>
         <option value="Menor preço">Menor preço</option>
         <option value="Maior preço">Maior preço</option>

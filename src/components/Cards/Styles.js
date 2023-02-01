@@ -1,13 +1,22 @@
 import styled from "styled-components";
 
-export const ContainerCard = styled.div`
+export const Container = styled.div`
   width : 66%;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : center;
+  @media screen and (max-width:700px){
+    width : 100%;
+  }
+`;
+
+export const ContainerCard = styled.div`
   margin-top : 15vh;
   display : flex;
   justify-content : center;
   flex-wrap : wrap;
   gap : 1%;
-  margin-bottom : 6vh;
 `;
 
 export const Card = styled.div`
@@ -38,11 +47,14 @@ export const Card = styled.div`
     width : 65%;
     text-transform : uppercase;
   }
+  @media screen and (max-width:700px){
+    width : 40%;
+  }
 `;
 
 export const Button = styled.button`
   text-transform : uppercase;
-  width : 25%;
+  padding : .8em 2em;
   background-color : #00c0ee;
   color : #fff;
   outline : none;

@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing : border-box;
   }
   body {
+    overflow-x : hidden;
     width : 100%;
     min-height : 100vh;
     font-family : Helvetica, sans-serif;
